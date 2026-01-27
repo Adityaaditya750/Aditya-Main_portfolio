@@ -87,6 +87,7 @@ export default function Contact() {
 
   return (
     <main
+    id="contact"
       className="pt-20 lg:pt-[0rem] bg-[#04081A]
  text-white min-h-screen"
     >
