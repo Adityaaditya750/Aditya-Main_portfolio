@@ -54,7 +54,7 @@ export default function Header() {
                   <button
                     key={id}
                     onClick={() => handleScroll(id)}
-                    className={`px-4 py-2  text-sm flex items-center gap-2
+                    className={`px-4 py-2 rounded-full text-sm flex items-center gap-2
                       transition-all duration-300
                       ${
                         activeLink === id
